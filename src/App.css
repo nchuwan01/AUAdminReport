@@ -1,0 +1,86 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidebar.is-open {
+  width: 70px;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.sidebar-nav {
+  padding-top: 20px;
+}
+
+.sidenav {
+  padding: 0 10px;
+}
+
+.sidebar-item {
+  padding: 10px 15px;
+  color: #495057;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.sidebar-item:hover {
+  background-color: #e9ecef;
+}
+.outerDiv
+{
+  width: 100%;
+}
+
+.hoveredLocation{
+  width: 100%;
+}
+.hoveredLocation:hover{
+  background-color: white;
+}
+
+.sidebar-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #343a40;
+  color: #ffffff;
+}
+@media (min-width: 1000px) {
+  .innerLocationTab{
+    font-size: 21px;
+  }
+  .innerLocationTabLoc{
+    font-size: 30px;
+  }
+  .innerLocationTab, .innerLocationTabLoc {
+    margin-left: 5px;
+  }
+}
+@media (max-width: 1000px) {
+  .innerLocationTab{
+    font-size: 17px;
+  }
+  .innerLocationTabLoc{
+    font-size: 20px;
+  }
+  .innerLocationTab, .innerLocationTabLoc {
+    margin-left: 5px;
+  }
+  
+}

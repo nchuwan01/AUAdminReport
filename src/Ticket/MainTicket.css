@@ -1,0 +1,99 @@
+  html{
+    height: 100%;
+  }
+.ticket-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 30px;
+  }
+  label{
+    padding-right: 10px;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-description {
+    margin-bottom: 10px;
+  }
+  .selectedTicket{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e8eeec;
+  }
+  #emailSubjectDiv
+  {
+    flex: 1;
+  }
+  .message-input {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .location {
+    font-style: italic;
+    margin: 20px;
+    color: #666;
+  }
+  .divEmail{
+    background-color: whitesmoke;
+    flex: row;
+    padding: 10px;
+  }
+  
+  .status-dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .status-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .status-button:hover {
+    background-color: #0056b3;
+  }
+
+  #inputEmailDiv{
+    grid: 1;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.row {
+    display: flex;
+}
+  .emailSubject{
+    margin-left: 10px;
+  }
+
+  @media (max-width: 600px){
+    .ticket-container {
+      border: 1px solid #f10000;
+      border-radius: 5px;
+      padding: 5px;
+      margin-top: 20px;
+    }
+
+   
+  }
